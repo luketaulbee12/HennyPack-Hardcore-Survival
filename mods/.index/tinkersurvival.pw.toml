@@ -1,0 +1,105 @@
+filename = 'TinkerSurvival-1.20.1-5.0.0.7.jar'
+name = "Tinkers' Survival"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-5.0.0.7'
+
+[download]
+hash = '5a5fd9203dd6cae9f0ca5f6b40227ad2a8c09991b30f7e11e143de1cf0ebdf9a4aa9a208c2656659d2dcc797ae7bfa009090722e16a891d1aae4f5b10108b418'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KRi6s8j8/versions/CBE1iHrg/TinkerSurvival-1.20.1-5.0.0.7.jar'
+
+[update.modrinth]
+mod-id = 'KRi6s8j8'
+version = 'CBE1iHrg'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NCKpPR0Z'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NTi7d3Xc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pOeA0exL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vdjF5PL5'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aY8vAgyv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'WhVa4xyw'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tkikq67H'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rrttDNl7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cqzqfZKX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Cg6Uc79H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jNa5P8yc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sUbuUC7R'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pfjLUfGv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tPLE214j'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hFW7KOhm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DvvYZ4Cd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oDobngty'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RdiVEh3O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AwiAYDUq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rxIIYO6c'
+type = 'REQUIRED'

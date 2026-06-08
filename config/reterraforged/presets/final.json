@@ -1,0 +1,503 @@
+{
+  "world": {
+    "continent": {
+      "continentType": "MULTI_IMPROVED",
+      "continentScale": 14000,
+      "continentJitter": 0.7
+    },
+    "controlPoints": {
+      "deepOcean": 0.15034965,
+      "shallowOcean": 0.25,
+      "beach": 0.448,
+      "coast": 0.502,
+      "inland": 0.502
+    },
+    "properties": {
+      "spawnType": "CONTINENT_CENTER",
+      "worldHeight": 1024,
+      "worldDepth": 96,
+      "seaLevel": 63
+    }
+  },
+  "surface": {
+    "erosion": {
+      "rockVariance": 30,
+      "rockMin": 352,
+      "dirtVariance": 40,
+      "dirtMin": 39,
+      "rockSteepness": 0.65,
+      "dirtSteepness": 0.55,
+      "screeSteepness": 0.8
+    }
+  },
+  "caves": {
+    "entranceCaveProbability": 0.0,
+    "cheeseCaveDepthOffset": 1.5625,
+    "cheeseCaveProbability": 0.0,
+    "spaghettiCaveProbability": 0.0,
+    "noodleCaveProbability": 0.0,
+    "caveCarverProbability": 0.0,
+    "deepCaveCarverProbability": 0.0,
+    "ravineCarverProbability": 0.0,
+    "largeOreVeins": true,
+    "legacyCarverDistribution": false
+  },
+  "climate": {
+    "temperature": {
+      "seedOffset": 0,
+      "scale": 13,
+      "falloff": 2,
+      "min": 0.1,
+      "max": 0.42,
+      "bias": 0.05
+    },
+    "moisture": {
+      "seedOffset": 0,
+      "scale": 9,
+      "falloff": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "bias": -0.15
+    },
+    "biomeShape": {
+      "biomeSize": 375,
+      "macroNoiseSize": 8,
+      "biomeWarpScale": 150,
+      "biomeWarpStrength": 80
+    },
+    "biomeEdgeShape": {
+      "type": "SIMPLEX",
+      "scale": 24,
+      "octaves": 2,
+      "gain": 0.5,
+      "lacunarity": 2.65,
+      "strength": 14
+    }
+  },
+  "terrain": {
+    "general": {
+      "terrainSeedOffset": 0,
+      "terrainRegionSize": 2000,
+      "globalVerticalScale": 1.0,
+      "globalHorizontalScale": 1.0,
+      "fancyMountains": true
+    },
+    "steppe": {
+      "weight": 1.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "plains": {
+      "weight": 0.4,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "hills": {
+      "weight": 3.5,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "dales": {
+      "weight": 3.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "plateau": {
+      "weight": 0.9702797,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "badlands": {
+      "weight": 1.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "torridonian": {
+      "weight": 2.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "mountains": {
+      "weight": 5.0,
+      "baseScale": 5.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "volcano": {
+      "weight": 0.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    }
+  },
+  "rivers": {
+    "seedOffset": 0,
+    "riverCount": 35,
+    "mainRivers": {
+      "bedDepth": 20,
+      "minBankHeight": 2,
+      "maxBankHeight": 6,
+      "bankWidth": 120,
+      "bedWidth": 50,
+      "fade": 0.75
+    },
+    "branchRivers": {
+      "bedDepth": 15,
+      "minBankHeight": 1,
+      "maxBankHeight": 4,
+      "bankWidth": 80,
+      "bedWidth": 50,
+      "fade": 0.975
+    },
+    "lakes": {
+      "chance": 0.3,
+      "minStartDistance": 0.0,
+      "maxStartDistance": 0.03,
+      "depth": 10,
+      "sizeMin": 75,
+      "sizeMax": 150,
+      "minBankHeight": 2,
+      "maxBankHeight": 10
+    },
+    "wetlands": {
+      "chance": 0.6,
+      "sizeMin": 175,
+      "sizeMax": 225
+    }
+  },
+  "filters": {
+    "erosion": {
+      "dropletsPerChunk": 250,
+      "dropletLifetime": 12,
+      "dropletVolume": 1.0,
+      "dropletVelocity": 0.7,
+      "erosionRate": 0.8,
+      "depositeRate": 0.55
+    },
+    "smoothing": {
+      "iterations": 1,
+      "smoothingRadius": 0.244,
+      "smoothingRate": 0.01
+    }
+  },
+  "structures": {
+    "structures": {
+      "nova_structures:desert_ruins": {
+        "spacing": 80,
+        "separation": 12,
+        "salt": 239021,
+        "disabled": false
+      },
+      "minecraft:ocean_ruins": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 14357621,
+        "disabled": false
+      },
+      "towns_and_towers:towers": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 205745294,
+        "disabled": false
+      },
+      "betterdungeons:skeleton_dungeons": {
+        "spacing": 46,
+        "separation": 23,
+        "salt": 732581671,
+        "disabled": false
+      },
+      "minecraft:trail_ruins": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 83469867,
+        "disabled": false
+      },
+      "nova_structures:illager_camp": {
+        "spacing": 26,
+        "separation": 12,
+        "salt": 4533232,
+        "disabled": false
+      },
+      "nova_structures:mangrove_witch_hut": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 594,
+        "disabled": false
+      },
+      "minecraft:jungle_temples": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619,
+        "disabled": false
+      },
+      "minecraft:igloos": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357618,
+        "disabled": false
+      },
+      "nova_structures:conduit_ruin": {
+        "spacing": 140,
+        "separation": 90,
+        "salt": 394,
+        "disabled": false
+      },
+      "nova_structures:stray_fort": {
+        "spacing": 100,
+        "separation": 16,
+        "salt": 709971604,
+        "disabled": false
+      },
+      "minecraft:pillager_outposts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 165745296,
+        "disabled": false
+      },
+      "minecraft:ocean_monuments": {
+        "spacing": 32,
+        "separation": 5,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "nova_structures:underground_house": {
+        "spacing": 20,
+        "separation": 10,
+        "salt": 23094,
+        "disabled": false
+      },
+      "betterdungeons:spider_dungeons": {
+        "spacing": 44,
+        "separation": 22,
+        "salt": 596523129,
+        "disabled": false
+      },
+      "nova_structures:undead_crypt": {
+        "spacing": 100,
+        "separation": 20,
+        "salt": 96586859,
+        "disabled": false
+      },
+      "betterdeserttemples:desert_temples": {
+        "spacing": 30,
+        "separation": 20,
+        "salt": 92746251,
+        "disabled": false
+      },
+      "nova_structures:creeping_crypt": {
+        "spacing": 100,
+        "separation": 10,
+        "salt": 7498398,
+        "disabled": false
+      },
+      "minecraft:ancient_cities": {
+        "spacing": 24,
+        "separation": 8,
+        "salt": 20083232,
+        "disabled": false
+      },
+      "nova_structures:villages_jungle": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "nova_structures:ruin_town": {
+        "spacing": 60,
+        "separation": 12,
+        "salt": 39043,
+        "disabled": false
+      },
+      "minecraft:villages": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "minecraft:swamp_huts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357620,
+        "disabled": false
+      },
+      "nova_structures:witch_villa": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 3042970,
+        "disabled": false
+      },
+      "minecraft:woodland_mansions": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 10387319,
+        "disabled": false
+      },
+      "minecraft:buried_treasures": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "minecraft:ruined_portals": {
+        "spacing": 40,
+        "separation": 15,
+        "salt": 34222645,
+        "disabled": false
+      },
+      "towns_and_towers:towns": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 10587309,
+        "disabled": false
+      },
+      "towns_and_towers:other": {
+        "spacing": 32,
+        "separation": 16,
+        "salt": 30084234,
+        "disabled": false
+      },
+      "betterjungletemples:jungle_temples": {
+        "spacing": 24,
+        "separation": 8,
+        "salt": 996971851,
+        "disabled": false
+      },
+      "bettermineshafts:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 593751784,
+        "disabled": false
+      },
+      "betterdungeons:zombie_dungeons": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 280667671,
+        "disabled": false
+      },
+      "betteroceanmonuments:ocean_monument": {
+        "spacing": 50,
+        "separation": 20,
+        "salt": 784827271,
+        "disabled": false
+      },
+      "nova_structures:taverns": {
+        "spacing": 44,
+        "separation": 15,
+        "salt": 783,
+        "disabled": false
+      },
+      "betterstrongholds:stronghold": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 596441294,
+        "disabled": false
+      },
+      "nova_structures:firewatch_towers": {
+        "spacing": 50,
+        "separation": 15,
+        "salt": 123,
+        "disabled": false
+      },
+      "nova_structures:wild_ruin": {
+        "spacing": 23,
+        "separation": 18,
+        "salt": 75489234,
+        "disabled": false
+      },
+      "betterwitchhuts:witch_circle": {
+        "spacing": 40,
+        "separation": 10,
+        "salt": 19797254,
+        "disabled": false
+      },
+      "minecraft:shipwrecks": {
+        "spacing": 24,
+        "separation": 4,
+        "salt": 165745295,
+        "disabled": false
+      },
+      "nova_structures:illager_hideout": {
+        "spacing": 200,
+        "separation": 12,
+        "salt": 3094032,
+        "disabled": false
+      },
+      "minecraft:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "nova_structures:jungle_ruins": {
+        "spacing": 80,
+        "separation": 12,
+        "salt": 239021,
+        "disabled": false
+      },
+      "betterwitchhuts:witch_hut": {
+        "spacing": 30,
+        "separation": 8,
+        "salt": 79297177,
+        "disabled": false
+      },
+      "nova_structures:wells": {
+        "spacing": 40,
+        "separation": 15,
+        "salt": 430930,
+        "disabled": false
+      },
+      "minecraft:desert_pyramids": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357617,
+        "disabled": false
+      },
+      "nova_structures:villages_swamp": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "nova_structures:badlands_miner_outpost": {
+        "spacing": 90,
+        "separation": 12,
+        "salt": 783,
+        "disabled": false
+      },
+      "nova_structures:bunker": {
+        "spacing": 50,
+        "separation": 10,
+        "salt": 679854,
+        "disabled": false
+      },
+      "betterdungeons:small_dungeons": {
+        "spacing": 10,
+        "separation": 6,
+        "salt": 34239823,
+        "disabled": false
+      }
+    }
+  },
+  "miscellaneous": {
+    "smoothLayerDecorator": true,
+    "strataRegionSize": 600,
+    "strataDecorator": true,
+    "oreCompatibleStoneOnly": true,
+    "erosionDecorator": true,
+    "plainStoneErosion": true,
+    "naturalSnowDecorator": true,
+    "customBiomeFeatures": false,
+    "vanillaSprings": true,
+    "vanillaLavaLakes": true,
+    "vanillaLavaSprings": true,
+    "mountainBiomeUsage": 0.0,
+    "volcanoBiomeUsage": 0.4
+  }
+}

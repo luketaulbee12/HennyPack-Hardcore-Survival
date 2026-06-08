@@ -1,0 +1,33 @@
+#Whether vanilla fishing catches should be seasonally blocked or reduced.
+restrictFishingLoot = true
+#Whether vanilla animal breeding should be blocked outside the breeding season.
+restrictAnimalBreeding = true
+#Whether players should receive an action bar hint when a seasonal rule blocks them.
+sendActionBarFeedback = true
+#Whether rain and snow should affect crop growth.
+weatherAffectsCropGrowth = true
+#Chance for rain-exposed crops to receive one extra random growth tick after growing.
+#Range: 0.0 ~ 1.0
+rainGrowthBonusChance = 0.35
+#Top-left anchored X coordinate for the year/day HUD row.
+#Range: > 0
+hudDayX = 30
+#Top-left anchored Y coordinate for the year/day HUD row.
+#Range: > 0
+hudDayY = 14
+#Top-left anchored X coordinate for the rainfall HUD row.
+#Range: > 0
+hudRainX = 30
+#Top-left anchored Y coordinate for the rainfall HUD row.
+#Range: > 0
+hudRainY = 28
+#Top-left anchored X coordinate for the time HUD row.
+#Range: > 0
+hudTimeX = 30
+#Top-left anchored Y coordinate for the time HUD row.
+#Range: > 0
+hudTimeY = 42
+#Overall scale for the top-left HUD blocks.
+#Range: 0.25 ~ 4.0
+hudScale = 1.0
+
